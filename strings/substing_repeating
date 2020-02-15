@@ -1,0 +1,18 @@
+#Find the substring that is repeating to form the string for a given String
+
+Sample Input:
+abababab
+Sample Output:
+ab
+
+
+CODE
+k=input()
+l=len(k)
+for i in range(l+1):
+    d=k[:i+1]
+    p=len(d)
+    c=l//p
+    if(d*c==k):
+        print(d)
+        break
