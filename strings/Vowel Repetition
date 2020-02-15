@@ -1,5 +1,6 @@
-Luffy likes to repeat vowel letters when he writes words. For example, instead of the word "onepiece" he can write "oneeepiiieceeee".
+PROBLEM:
 
+Luffy likes to repeat vowel letters when he writes words. For example, instead of the word "onepiece" he can write "oneeepiiieceeee".
 Zoro does not like such behavior, so he wants to write a program to format the words written by Luffy. This program must combine all consecutive equal vowels to a single vowel.
 
 The vowel letters are "a", "e", "i", "o", "u" and "y".(including 'y')
@@ -8,7 +9,7 @@ There are exceptions: if letters "e" or "o" repeat in a row exactly 2 times, lik
 
 Zoro is very busy and asks you to help him and write the required program.
 
-Input Format
+Input Format:
 
 The first line contains the integer n — the number of letters in the word written by Luffy.
 
